@@ -1,0 +1,17 @@
+[
+    {
+      "valor": 500,
+      "id": 1,
+      "titulo": "Funda Personalizada"
+    },
+    {
+      "valor": 1000,
+      "id": 2,
+      "titulo": "Vinilo De Macotas"
+    },
+    {
+      "valor": 700,
+      "id": 3,
+      "titulo": "Porta Sahumerios Honguito"
+    }
+  ]
