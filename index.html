@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+	<meta name="keywords" content="Froggy Paintings,arte,cuadros,vinilos">
+	<meta name="description" content="Tienda de arte">
+	<meta name="author" content="Lihue Alonso Lagares">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Froggy Paintings</title>
+    <link rel="icon" href="logo.ico">
+    <link rel="stylesheet" href="Estiloindex.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <div class="caja1">
+        <header>
+            <img src="logo1.jpg" class="logo1"><img src="logo2.png" class="logo2">
+            <h1 class="titulo">Froggy Paintings</h1>
+            <p class="descripcion">Tienda Virtual de Arte y Manualidades</p>
+        </header>
+    </div>
+    <div class="caja2">
+        <h2 class="Bienvenido">¡Bienvenido <b id="Nombre">Usuario</b>!</h2><button id="open" class="BotonCarrito"><img src="carrito.png" class="ImagenCarrito"></button>
+    </div>
+    <div class="modal-conteiner" id="modal_conteiner">
+        <div class="modal">
+            <h3 class="tituloDeCarrito"> Carrito De Compras</h3>
+            <Div>
+                <table class="Table">
+                    <thead>
+                        <tr class="tituloDeProductos">
+                            <th class="thProductos">Productos</th>
+                            <th class="thPrecio">Precio</th>
+                            <th class="thCantidad">Cantidad</th>
+                            <th class="thSubtotal">Subtotal</th>
+                            <Th class="thBotones"></Th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="productoEnCarrito1">
+                            <td class="Producto1" id="Producto1"></td>
+                            <td class="Precio1" id="Precio1"></td>
+                            <td class="Cantidad1" id="Cantidad1"></td>
+                            <td class="Subtotal1" id="Subtotal1"></td>
+                            <td> <button class="botonQuitar1" id="BotonQuitar1"> <p class="X1">X</p> </button> </td>
+                        </tr>
+                        <tr class="productoEnCarrito2">
+                           <td class="Producto2" id="Producto2"></td>
+                           <td class="Precio2" id="Precio2"></td>
+                           <td class="Cantidad2" id="Cantidad2"></td>
+                           <td class="Subtotal2" id="Subtotal2"></td>
+                           <td> <button class="botonQuitar2" id="BotonQuitar2"> <p class="X2">X</p> </button> </td>
+                        </tr>
+                        <tr class="productoEnCarrito3">
+                           <td class="Producto3" id="Producto3"></td>
+                           <td class="Precio3" id="Precio3"></td>
+                           <td class="Cantidad3" id="Cantidad3"></td>
+                           <td class="Subtotal3" id="Subtotal3"></td>
+                           <td> <button class="botonQuitar3" id="BotonQuitar3"> <p class="X3">X</p> </button> </td>
+                        </tr>
+                        <tr class="productoTotal">
+                            <td class="Total">Total:</td>
+                            <td class="total" id="total"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </Div>
+            <button id="close" class="close">Cerrar</button>
+            <button id="confirm" class="confirm">Confirmar Compra</button>
+        </div>
+       </div>
+    <div class="caja3">
+        <div class="contenido1">
+        <img class="imagen1" src="imagen2.jpg">
+        <p class="producto1">Funda Personalizada</p>
+        <p class="precio1">Precio:$500</p>
+        <button id="button1" class="boton1"><p class="mas1">+</p></button>
+        <input type="number" class="input1" id="input1">
+        </div>
+    </div>
+    <div class="caja4">
+        <div class="contenido2">
+        <img class="imagen2" src="imagen1.jpg" >
+        <p class="producto2">Vinilo De Mascotas</p>
+        <p class="precio2">Precio:$1000</p>
+        <button id="button2" class="boton2"><p class="mas2">+</p></button>
+        <input type="number" class="input2" id="input2">
+        </div>
+    </div>
+    <div class="caja5">
+        <div class="contenido3">
+        <img class="imagen3" src="imagen3.jpg">
+        <p class="producto3">Porta Sahumerios Honguito</p>
+        <p class="precio3">Precio:$700</p>
+        <button id="button3" class="boton3"><p class="mas3">+</p></button>
+        <input type="number" class="input3" id="input3">
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script  type="text/Javascript" src=" https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src ="https://unpkg.com/sweetalert/dist/sweetalert.min.js"> </script>
+</body>
+</html>
